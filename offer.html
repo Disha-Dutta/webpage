@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>Starter Template for Bootstrap</title>
+
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style type="text/css">
+        body {
+            padding-top: 5rem;
+        }
+        .template {
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+        .image
+        {
+            
+            width: 2500px;
+            height: 1200px;
+            /*overflow: hidden;*/
+        }
+        .submit
+        {
+                margin-top:550px;
+              
+                border-color:black;
+                border-radius: 5px;
+                color:black;
+              
+                padding:50px;
+        }
+        .fond
+        {
+            position:absolute;
+            padding-top: 185px;
+            top:0;
+            bottom:0;
+            left: 0;
+            right: 0;
+            background-color: aquamarine;
+            
+        }
+        .box
+        {
+            display:inline-block;/*for images in one line*/
+            border:0;
+            width:200px;
+            height:300px;
+            position:relative;
+            transition: all 200ms ease-in;
+            transform: scale(1);
+            padding:10px;
+            margin:20px;
+            
+            
+        }
+        .box:hover
+        {
+            box-shadow: 0px 0px 150px black;
+            transition: all 200ms ease-in;
+            transform: scale(1.8);
+            z-index:2;
+            cursor:pointer;
+        }
+        .links
+        {
+            display: block;
+            font-size: 30px;
+            
+        }
+        .search
+        {
+            background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+        }
+      
+    </style>
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark indigo bg-dark fixed-top" style="color:#e2b68e;">
+        <a class="navbar-brand" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Apple_Computer_Logo_rainbow.svg/2000px-Apple_Computer_Logo_rainbow.svg.png" style="width:20px; height:20px; border-radius:100px;"></a>
+       
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Enterprise</a>
+                        <a class="dropdown-item" href="#">API</a>
+                        <a class="dropdown-item" href="#">Pricing</a>
+                    </div>
+                </li>
+                <li class="nav navbar-nav nav-item navbar-right"><a class="nav-link" href="xyz.html">Login</a>
+                 </li>
+            </ul>
+            
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+            </form>
+            
+        </div>
+    </nav>
+
+    <div class="fluid-container">
+        <div class="template">
+           
+            <div align="center"class="fond">
+               <div style="width:cover;">
+       
+                    <div class="box" style="background-image:url(bootstrap.png); background-position:center; background-size:cover;border-radius:10px;"></div>     
+       
+                    <div class="box" style="background-image:url(startup.png);background-position:center; background-size:cover;border-radius:10px;"></div>
+       
+                    <div class="box" style="background-image:url(business.png);background-position:center; background-size:cover;border-radius:10px;"></div>     
+                </div> 
+            </div> 
+        </div>
+               
+   
+        <div class="forms">
+               
+            <div class="submit">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleinputemail1">Name</label>
+                        <input type="email" class="form-control" id="exampleinputemail1" placeholder="Enter your name">
+                        <label for="exampleinputemail1">Phone</label>
+                        <input type="email" class="form-control" id="exampleinputemail1" placeholder="enter your mobile no.">
+                        <label for="exampleinputemail1">Email Addresss</label>
+                        <input type="email" class="form-control" id="exampleinputemail1" placeholder="Example @xyz.com">
+                    </div>
+                        <div class="form-group">
+                        <label for="exampleinputpassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleinputpassword1" placeholder="Password">
+                        </div>
+                    <button type="submit" class="btn btn-default search">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+            
+      <!--footer here-->
+        <footer class="page-footer center-on-small-only unique-color-dark pt-0">
+            <div style="background-color:black; color:#e2b68e;">
+            <div class="container">
+             <div class="row py-4 d-flex align-items-center">
+                  <div class="col-md-6 text-center text-md-left mb-4">
+                      <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
+                 </div>
+                 <div class="col-md-6 text-center">
+                  <a class="icons-sm fb-ic ml-0"><i class="fa fa-facebook white-text mr-lg-4" href="https://www.facebook.com/dutta.695"></i></a> 
+                 
+                    <a class="icons-sm tw-ic" href="https://twitter.com/disha533"><i class="fa fa-twitter white-text mr-lg-4"> </i></a>
+
+                    <a class="icons-sm gplus-ic" href="https://plus.google.com/u/0/" ><i class="fa fa-google-plus white-text mr-lg-4"> </i></a>
+                    
+                    <a class="icons-sm li-ic" href="https://www.linkedin.com/in/priya-dutta-207331122"><i class="fa fa-linkedin white-text mr-lg-4"> </i></a>
+                  
+                    <a class="icons-sm ins-ic" href="https://www.instagram.com/priyeah_27/?hl=en"><i class="fa fa-instagram white-text mr-lg-4"> </i></a>  
+                 </div>
+                  </div>  
+                </div>
+        
+           
+    <div class="container mt-5 mb-4 text-center text-md-left ">
+        <div class="row mt-3">
+
+          
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-r">
+                <h6 class="title font-bold"><strong>Company name</strong></h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus omnis, architecto earum. Ex id tempore, assumenda, placeat quia recusandae nemo, molestiae in animi neque reiciendis unde illo voluptas architecto non!</p>
+            </div>
+           
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-r">
+                <h6 class="title font-bold"><strong>Products</strong></h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p><a href="#!">MDBootstrap</a></p>
+                <p><a href="#!">MDWordPress</a></p>
+                <p><a href="#!">BrandFlow</a></p>
+                <p><a href="#!">Bootstrap Angular</a></p>
+            </div>
+            
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-r">
+                <h6 class="title font-bold"><strong>Useful links</strong></h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p><a href="#!">Your Account</a></p>
+                <p><a href="#!">Become an Affiliate</a></p>
+                <p><a href="#!">Shipping Rates</a></p>
+                <p><a href="#!">Help</a></p>
+            </div>
+           
+            <div class="col-md-4 col-lg-3 col-xl-3">
+                <h6 class="title font-bold"><strong>Contact</strong></h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+                <p><i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+          
+        </div>
+    </div>
+    
+       <div class="footer-copyright">
+        <div class="container-fluid text-center">
+            ©  <a><strong> Priya</strong></a>
+        </div>
+    </div>
+      </div>
+        </footer>    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    
+   
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <style >
+        body
+        {
+            background-color: black;
+            margin:0px;
+            padding: 0px;
+            font-family: tahoma;
+        }
+        nav
+        {
+            float: none;
+            clear:both;
+            width:30%;
+            margin:10% auto;
+            background: #eee;
+        }
+        nav ul
+        {
+            list-style:none;
+            margin:0px;
+            pading:0px;
+        }
+        nav li
+        {
+            float: none;
+            width:100%;
+                        
+        }
+        nav li a
+        {
+            display: block;
+            width: :100%;
+            padding:20px;
+            border-left:5px solid;
+            position:relative;
+            z-index: 2;/*for showing the lower layer*/
+            text-decoration: none;
+            color:gray;
+            box-sizing: border-box;
+            
+        }
+        nav li a:hover
+        {
+            border-bottom: 0px;
+            color:white;
+            text-decoration: none;
+            
+        }
+        nav li:first-child a
+        {
+            border-left: 10px solid #3498db;
+            
+        }
+        nav li:nth-child(2) a
+        {
+            border-left: 10px solid #ffd071;
+            
+        } 
+        nav li:nth-child(3) a
+        {
+            border-left: 10px solid #f0776c;
+            
+        }
+        nav li:last-child a
+        {
+            border-left: 10px solid #1abc9c;
+            
+        }
+        nav li a:after
+        {
+            content:"";
+            height:100%;
+            left:0px;
+            top:0px;
+            width:0px;
+            position: absolute;
+            transition: all .3s ease 0s;
+            z-index: -1;
+        }
+         nav li a:hover:after
+        {
+            width:100%;
+            
+            
+        }
+        nav li:first-child a:hover
+        {
+            background-color: #3498db;
+            
+        }
+         nav li:nth-child(2) a:after
+        {
+            background-color:#ffd071;
+        }
+        nav li:nth-child(3) a:after
+        {
+            background-color:#f0776c;
+        } 
+        nav li:last-child a:after
+        {
+            background-color:#1abc9c;
+        }
+        
+        
+    </style>
+</head>
+
+
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">contact Us</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  
+</body>
+</html>
